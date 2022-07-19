@@ -1,0 +1,49 @@
+@import 'vars';
+@import 'fonts';
+
+//!Начальная страница
+
+.order {
+    text-align: center;
+    font-family: 'PTSans-Regular';
+    color: $main;
+    &-btn {
+        font-weight: 700;
+        color: #fff;
+        background-color: #FC6441;
+        height: 42px;
+        border-radius: 12px;
+        padding-top: 10.5px;
+        margin: 8px 0 16px 0;
+    }
+}
+
+.news,
+.stocks {
+    margin: 0 -15px 16px;
+    background-color: #fff;
+    padding: 15px 15px;
+    min-height: 100%;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.25);
+    border-radius: 12px;
+}
+
+.news_item{
+    border-bottom: 1px solid #C1AED8;
+    margin-bottom: 4px;
+    &:last-child{
+        border-bottom: none;
+    }
+    p{
+        display: inline;
+        text-align: center;
+        position: relative;
+        bottom: 34px;
+        font-family: 'PTSans-Regular';
+        color: #4F2095;
+    }
+    img{
+        margin-right: 10px;
+        border-radius: 12px; 
+    }
+}

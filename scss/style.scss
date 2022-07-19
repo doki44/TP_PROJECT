@@ -1,0 +1,232 @@
+@import 'vars';
+@import 'fonts';
+//!----------
+@import '_header';
+@import '_footer';
+@import '_first-page';
+@import '_main';
+@import '_carwashes';
+@import '_control';
+@import '_pricelist';
+@import '_settings';
+@import '_personal';
+@import '_payments';
+@import '_reviews';
+@import '_clients';
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+    background-color: #F6F9FF;
+}
+body.lock{
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.page {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 0 15px;
+    position: relative;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.slider_item{
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.slick-dots {
+    list-style: none;
+    text-align: center;
+}
+
+.slider .slick-dots button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #B7A7D7;
+    border: none;
+    padding: 0;
+    font-size: 0;
+    outline: none;
+}
+
+.slider .slick-dots .slick-active button {
+    background-color: $main;
+}
+
+.slider .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.text__main {
+    font-family: "OpenSans-Bold";
+    font-size: 20px;
+    line-height: 20px;
+    color: $main;
+    margin-bottom: 15px;
+}
+
+.subText{
+    margin-bottom: 5px;
+    font-family: "OpenSans-Bold";
+    font-size: 14px;
+    line-height: 19px;
+    color: #939599;
+}
+
+.main {
+    height: 100%;
+    padding-top: 90px;
+    &__inner {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+    }
+}
+
+.btn-sbm{
+    background-color: #7CC57A;
+    outline: none;
+    @media(min-width:768px){
+       &:hover{
+            background-color: #4CC417;
+        } 
+    }
+}
+.btn-cnl{
+    background-color: #ff0000;
+    @media(min-width:768px){
+       &:hover{
+            background-color: #F70D1A;
+        } 
+    }
+}
+
+.popup{
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 150px;
+    top: 0;
+    left: 0;
+    transition: all .5s;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'PTSans-Regular';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    opacity: 0;
+    visibility: hidden;
+    &__content{
+        background-color: #E4E2F4;
+        padding: 10px 15px;
+        margin: 0 -15px;
+    }
+    &__btns{
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &.open{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.link__tab--active,
+.link__tab-spec--active{
+    color: $main;
+    border-bottom: 2px solid #62319E;
+    padding-bottom: 5px;
+}
+.link__tab-pages--active{
+    color: $main;
+}
+.tab__item,
+.tab__item-pages,
+.tab__item-spec{
+    display: none;
+    &--active{
+        display: block;
+    }
+}
+
+.spoiler{
+    display: none;
+    &__btn{
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        position: relative;
+        .top{
+            padding-left: 20px;
+        }
+        .top::before,
+        .top::after{
+            content: "";
+            position: absolute;
+            top: 20px;
+            background-color: #C1AED8;
+            height: 2px;
+            width: 10px;
+            transition: all .3s;
+        }
+        .top::before{
+            transform: rotate(-45deg);
+            left: 0;
+        }
+        .top::after{
+            transform: rotate(45deg);
+            left: 6px;
+        }
+        &.active .top::before{
+            transform: rotate(45deg);
+        }
+        &.active .top::after{
+            transform: rotate(-45deg);
+        }
+    }
+    &__text{
+        display: block;
+        padding: 0;
+    }
+}

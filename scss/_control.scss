@@ -1,0 +1,28 @@
+@import 'vars';
+@import 'fonts';
+
+.control {
+    margin: 0 -15px 16px;
+    min-height: 348px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+    border-radius: 12px;
+    margin-bottom: 14px;
+    font-family: "PTSans-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    &__links {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        text-align: center;
+    }
+    &__link{
+        color: #b7a7d7;
+        width: 106px;
+        min-height: 47px;
+        padding: 0 15px;
+    }
+}

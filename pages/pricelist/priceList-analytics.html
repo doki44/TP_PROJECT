@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__body-nav">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <a href="../../index.html" class="header__logo">LOGO</a>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li class="header__list-li">МЕНЮ</li>
+                                <li><a class="header__link" href="../main.html">Главная</a></li>
+                                <li><a class="header__link" href="../control.html">Контроль</a></li>
+                                <li><a class="header__link" href="priceList.html">Прайс-лист</a></li>
+                                <li><a class="header__link" href="../personal.html">Персонал</a></li>
+                                <li><a class="header__link" href="#">Настройки</a></li>
+                                <li><a class="header__link" href="../payments.html">Платежи</a></li>
+                                <li><a class="header__link" href="../reviews.html">Отзывы</a></li>
+                                <li><a class="header__link" href="../clients.html">Клиенты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__body-prof">
+                        <input type="search" class="header__body-search">
+                        <a href="#" class="header__link">Войти</a>
+                    </div>
+                    <div class="header__body-img">
+                        <input type="search" class="header__body-srch">
+                        <img src="../../images/search.svg" class="header__body-img_search">
+                        <a href="#"><img src="../../images/profile.svg" class="header__body-img_profile"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="container">
+                <h3 class="text__main">Аналитика</h3>
+                <div class="analytics">
+                    <div class="price__links" style="margin-bottom: 15px;">
+                        <a href="priceList.html" class="price__link">Прайс-лист</a>
+                        <a href="priceList-nomenklatura.html" class="price__link">Номенклатура</a>
+                        <a href="priceList-storage.html" class="price__link">Склад</a>
+                        <a href="#" class="price__link-active">Аналитика</a>
+                    </div>
+                    <div class="analytics__inner">
+                        <div class="price__links" style="margin-bottom: 12px;">
+                            <a href="#carwash" class="analytics__link link__tab">Автомойка</a>
+                            <a href="#tire_service" class="analytics__link link__tab">Шиномонтаж</a>
+                            <a href="#detaling" class="analytics__link link__tab">Детейлинг</a>
+                            <a href="#cafe" class="analytics__link link__tab">Кафе</a>
+                        </div>
+
+                        <div class="analytics-btn">Выбрать период</div>
+
+                        <div class="analytics__table tab__item" id="carwash">
+                            <div class="analytics__table-top">
+                                <p></p>
+                                <p style="padding: 0;">% превышения времени на услугу</p>
+                                <p>Нормативное время</p>
+                                <p>Среднее время на услугу</p>
+                                <p>Оказано</p>
+                                <p>Средняя стоимость</p>
+                                <p>Доход с услуги</p>
+                            </div>
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="color: #260b5d;">Мойка</p>
+                            </div>
+                            <hr class="analytics__table-hrMain">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p">ДВС</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">21 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p">Подвески</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">26 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+
+                            <div class="analytics__table-cont">
+                                <p style="padding: 0;" class="analytics__table-cont_p">1. Мойка кузова под давлением без
+                                    шампуня</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">21 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+
+                        </div>
+
+                        <div class="analytics__table tab__item" id="tire_service">
+                            <div class="analytics__table-top">
+                                <p></p>
+                                <p style="padding: 0;">% превышения времени на услугу</p>
+                                <p>Нормативное время</p>
+                                <p>Среднее время на услугу</p>
+                                <p>Оказано</p>
+                                <p>Средняя стоимость</p>
+                                <p>Доход с услуги</p>
+                            </div>
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="color: #260b5d;">Химчистка салона</p>
+                            </div>
+                            <hr class="analytics__table-hrMain">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p">Съём-установка</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="color: #260b5d;">Полировка кузова</p>
+                            </div>
+                            <hr class="analytics__table-hrMain">
+                        </div>
+
+                        <div class="analytics__table tab__item" id="detaling">
+                            <div class="analytics__table-top">
+                                <p></p>
+                                <p style="padding: 0;">% превышения времени на услугу</p>
+                                <p>Нормативное время</p>
+                                <p>Среднее время на услугу</p>
+                                <p>Оказано</p>
+                                <p>Средняя стоимость</p>
+                                <p>Доход с услуги</p>
+                            </div>
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="color: #260b5d;">Полировка</p>
+                            </div>
+                            <hr class="analytics__table-hrMain">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p">Полировка легковая</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p">Полировка кроссовер</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p">Полировка джип</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+
+
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="color: #260b5d;">Химчистка</p>
+                            </div>
+                            <hr class="analytics__table-hrMain">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="padding: 0;">Легкая химчистка легковая</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="padding: 0;">Глубокая химчистка легковая</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="padding: 0;">Легкая химчистка кроссовер</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                        </div>
+
+                        <div class="analytics__table tab__item" id="cafe">
+                            <div class="analytics__table-top">
+                                <p></p>
+                                <p style="padding: 0;">% превышения времени на услугу</p>
+                                <p>Нормативное время</p>
+                                <p>Среднее время на услугу</p>
+                                <p>Оказано</p>
+                                <p>Средняя стоимость</p>
+                                <p>Доход с услуги</p>
+                            </div>
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p" style="color: #260b5d;">Кофе</p>
+                            </div>
+                            <hr class="analytics__table-hrMain">
+                            <div class="analytics__table-cont">
+                                <p class="analytics__table-cont_p">Кофе</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0%</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 мин.</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0 раз</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                                <p class="analytics__table-cont_p analytics__table-cont_p-Main">0₽</p>
+                            </div>
+                            <hr class="analytics__table-hr">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="apps">
+                    <p class="footer__p">ПРИЛОЖЕНИЯ</p>
+                    <a href="#" class="footer__link">IOS</a>
+                    <a href="#" class="footer__link">Android</a>
+                    <a href="#" class="footer__link">Windows</a>
+                </div>
+
+                <div class="soc_network">
+                    <p class="footer__p">СОЦСЕТИ</p>
+                    <a href="#" class="footer__link">ВКонтакте</a>
+                    <a href="#" class="footer__link">Facebook</a>
+                    <a href="#" class="footer__link">Одноклассники</a>
+                    <a href="#" class="footer__link">Twitter</a>
+                    <a href="#" class="footer__link">Instagram</a>
+                </div>
+
+                <p class="footer__text">&copy 2020 Автомойка “МИР”</p>
+
+                <div class="help">
+                    <p class="help__p">СЛУЖБА ПОДДЕРЖКИ</p>
+                    <a href="#">
+                        <div class="help__btn">Задать вопрос</div>
+                    </a>
+                </div>
+                <a href="#" class="footer__link-btm">Полная версия</a>
+                <a href="#" class="footer__link-btm" style="position: absolute;
+                right: 16px;">Вход для владельца</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../../js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,266 @@
+@import 'vars';
+@import 'fonts';
+
+//!Персонал
+.personal {
+    margin: 0 -15px 16px;
+    min-height: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+    border-radius: 12px;
+    margin-bottom: 100px;
+    text-align: center;
+    &__link{
+        font-family: "PTSans-Regular";
+        font-size: 17px;
+        line-height: 20px;
+        color: $main;
+        padding: 13px 0;
+        display: block;
+        border-bottom: 1px solid #f4f4f5;
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+}
+
+//!Администраторы
+.admins {
+    margin: 0 -15px 16px;
+    min-height: 100%;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+    border-radius: 12px;
+    position: relative;
+    font-family: "PTSans-Regular";
+    font-size: 17px;
+    line-height: 20px;
+    &__cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 13px 16px;
+        border-bottom: 1px solid #F4F4F5;
+        &-title{
+            color: #9285AE;
+        }
+        &-text{
+            color: $main;
+        }
+    }
+}
+
+.check {
+    width: 18px;
+    height: 18px;
+    background: #ffffff;
+    border: 1px solid #260b5d;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.round {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $main;
+    display: inline-block;
+}
+
+.admins-btn {
+    background: #b7a7d7;
+    border-radius: 0px 0px 12px 12px;
+    height: 46px;
+    p{
+        position: relative;
+    top: 13px;
+    text-align: center;
+    color: $main;
+    }
+}
+
+
+.item {
+    margin-left: 16px;
+    margin-right: 8px;
+    padding-top: 8px;
+    height: 83px;
+    display: inline;
+    text-align: center;
+    font-family: "PTSans-Regular";
+    font-size: 17px;
+    line-height: 20px;
+    color: $main;
+}
+
+//!Управляющие
+.managers {
+    margin: 0 -15px 16px;
+    min-height: 100%;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+    border-radius: 12px;
+    position: relative;
+    font-family: "PTSans-Regular";
+    font-size: 17px;
+    line-height: 20px;
+    &__cont{
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        padding: 13px 16px;
+        border-bottom: 1px solid #f4f4f5;
+        &-title{
+            color: #9285AE;
+        }
+        &-text{
+            color: $main;
+        }
+    }
+    &-btn{
+        background: #b7a7d7;
+        border-radius: 0px 0px 12px 12px;
+        height: 46px;
+        text-align: center; 
+        padding-top: 13px;
+    }
+}
+
+//!Исполнители
+.executors {
+    margin: 0 -15px 16px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+    border-radius: 12px;
+    font-family: "PTSans-Regular";
+    font-size: 17px;
+    line-height: 20px;
+    &__cont{
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 16px;
+        border-bottom: 1px solid #f4f4f5;
+        &-title{
+            color: #9285AE;
+        }
+        &-text{
+            color: $main;
+        }
+    }
+    &-btn{
+        background: #b7a7d7;
+        border-radius: 0px 0px 12px 12px;
+        height: 46px;
+        text-align: center;
+        padding-top: 13px;
+    }
+}
+
+//!Исполнители (Процентная ставка)
+
+.percents{
+    margin: 0 -15px 16px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+    border-radius: 12px;
+    font-family: 'PTSans-Regular';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    &__links{
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 0 13px;
+    }
+    &__link{
+        padding: 0 15px;
+        width: 160px;
+        text-align: center;
+        color: #9285AE;
+    }
+    &__item{
+        padding: 0 15px;
+        display: none;
+        &-cont{
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #f4f4f5;
+        }
+        &-title{
+            color: #9285AE;
+        }
+        &-text{
+            color: $main;
+        }
+        &-btn{
+            cursor: pointer;
+            margin: 0 -15px;
+            padding-top: 12px;
+            background-color: #B7A7D7;
+            color: $main;
+            height: 46px;
+            border-radius: 0 0 12px 12px;
+            text-align: center;
+        }
+    }
+    &__spec{
+        margin: 0 -15px 16px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+        border-radius: 12px;
+        font-family: 'PTSans-Regular';
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: -0.41px;
+        &-links{
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0 13px;
+        }
+        &-link{
+            padding: 0 15px;
+            width: 160px;
+            text-align: center;
+            color: #9285AE;
+        }
+        &-item{
+            padding: 0 15px;
+            &-cont{
+                padding: 15px 0;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #f4f4f5;
+            }
+            &-btn{
+                margin: 0 -15px;
+                padding-top: 12px;
+                background-color: #B7A7D7;
+                color: $main;
+                height: 46px;
+                border-radius: 0 0 12px 12px;
+                text-align: center;
+            }
+            &-title{
+                color: #9285AE;
+            }
+            &-text{
+                color: $main;
+            }
+        }
+    }
+}
+
+.percents__btn{
+    cursor: pointer;
+    margin-bottom: 15px;
+    height: 42px;
+    border-radius: 12px;
+    background: #FC6441;
+    color: #fff;
+    text-align: center;
+    font-family: 'PTSans-Bold';
+    font-size: 15px;
+    line-height: 17px;
+}

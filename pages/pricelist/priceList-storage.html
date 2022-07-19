@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header lock-padding">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__body-nav">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <a href="../../index.html" class="header__logo">LOGO</a>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li class="header__list-li">МЕНЮ</li>
+                                <li><a class="header__link" href="../main.html">Главная</a></li>
+                                <li><a class="header__link" href="../control.html">Контроль</a></li>
+                                <li><a class="header__link" href="../priceList.html">Прайс-лист</a></li>
+                                <li><a class="header__link" href="../personal.html">Персонал</a></li>
+                                <li><a class="header__link" href="#">Настройки</a></li>
+                                <li><a class="header__link" href="../payments.html">Платежи</a></li>
+                                <li><a class="header__link" href="../reviews.html">Отзывы</a></li>
+                                <li><a class="header__link" href="../clients.html">Клиенты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__body-prof">
+                        <input type="search" class="header__body-search">
+                        <a href="#" class="header__link">Войти</a>
+                    </div>
+                    <div class="header__body-img">
+                        <input type="search" class="header__body-srch">
+                        <img src="../../images/search.svg" class="header__body-img_search">
+                        <a href="#"><img src="../../images/profile.svg" class="header__body-img_profile"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="main lock-padding">
+            <div class="container">
+                <h4 class="text__main">Склад</h4>
+                <div class="storage">
+                    <div class="price__links" style="margin-bottom: 15px;">
+                        <a href="priceList.html" class="price__link">Прайс-лист</a>
+                        <a href="priceList-nomenklatura.html" class="price__link">Номенклатура</a>
+                        <a href="#" class="price__link-active">Склад</a>
+                        <a href="priceList-analytics.html" class="price__link">Аналитика</a>
+                    </div>
+                    <div class="storage__inner">
+
+                        <div class="price__links" style="margin-bottom: 12px;">
+                            <a href="#remains" class="storage__link link__tab">Остатки</a>
+                            <a href="#docs" class="storage__link link__tab">Документы</a>
+                            <a href="#guide" class="storage__link link__tab">Справочник</a>
+                        </div>
+
+
+                        <div class="remains tab__item" id="remains">
+                            <div class="remains__nav-bar">
+                                <a href="#products" class="remains__nav-bar__link link__tab-spec">Товары</a>
+                                <a href="#production" class="remains__nav-bar__link link__tab-spec">Продукция</a>
+                                <a href="#reserves" class="remains__nav-bar__link link__tab-spec">Запасы</a>
+                            </div>
+
+                            <div class="remains__info">
+                                <p>Все склады</p>
+                                <img src="../../images/filter.svg">
+                            </div>
+                            <div class="products tab__item-spec" id="products">
+                                <div class="remains__table">
+                                    <div class="remains__table-top">
+                                        <p>Имя</p>
+                                        <p>Склад</p>
+                                        <p>Остаток</p>
+                                        <p>Ед. изм.</p>
+                                    </div>
+
+                                    <div class="remains__table-cont">
+                                        <p>Кофе</p>
+                                        <p>Товары</p>
+                                        <p>2</p>
+                                        <p>шт</p>
+                                    </div>
+
+                                    <div class="remains__table-cont">
+                                        <p>Молоко</p>
+                                        <p>Товары</p>
+                                        <p>100</p>
+                                        <p>ед</p>
+                                    </div>
+
+                                    <div class="remains__table-cont">
+                                        <p>Сникерс</p>
+                                        <p>Товары</p>
+                                        <p>106</p>
+                                        <p>шт</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="production tab__item-spec" id="production">
+                                <p>К сожалению номенклатура данного типа отсутствует на складе...</p>
+                            </div>
+                            <div class="reserves tab__item-spec" id="reserves">
+                                <div class="remains__table">
+                                    <div class="remains__table-top">
+                                        <p>Наименование</p>
+                                        <p>Склад</p>
+                                        <p>Остаток</p>
+                                        <p>Ед. изм.</p>
+                                    </div>
+                                    <div class="remains__table-cont">
+                                        <p>Кофе</p>
+                                        <p>Товары</p>
+                                        <p>2</p>
+                                        <p>шт</p>
+                                    </div>
+                                    <div class="remains__table-cont">
+                                        <p>Кофе</p>
+                                        <p>Товары</p>
+                                        <p>2</p>
+                                        <p>шт</p>
+                                    </div>
+                                    <div class="remains__table-cont">
+                                        <p>Кофе</p>
+                                        <p>Товары</p>
+                                        <p>2</p>
+                                        <p>шт</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="docs tab__item" id="docs">
+                            <div class="docs__table">
+                                <div class="docs__table-top">
+                                    <p>Дата и время</p>
+                                    <p>Тип документа</p>
+                                    <p>Номер документа</p>
+                                    <p>Проведен</p>
+                                </div>
+                                <div class="docs__table-cont">
+                                    <p>14 апреля 2020, 10:53</p>
+                                    <p>Акт списания</p>
+                                    <p>000003</p>
+                                    <p>14 апреля 2020, 10:53</p>
+                                </div>
+
+                                <div class="docs__table-cont">
+                                    <p>14 апреля 2020, 10:53</p>
+                                    <p>Акт списания</p>
+                                    <p>000003</p>
+                                    <p>14 апреля 2020, 10:53</p>
+                                </div>
+
+                                <div class="docs__table-cont">
+                                    <p>14 апреля 2020, 10:53</p>
+                                    <p>Акт списания</p>
+                                    <p>000003</p>
+                                    <p>14 апреля 2020, 10:53</p>
+                                </div>
+
+                                <div class="docs__table-cont">
+                                    <p>14 апреля 2020, 10:53</p>
+                                    <p>Акт списания</p>
+                                    <p>000003</p>
+                                    <p>14 апреля 2020, 10:53</p>
+                                </div>
+
+                                <div class="docs__table-cont">
+                                    <p>14 апреля 2020, 10:53</p>
+                                    <p>Акт списания</p>
+                                    <p>000003</p>
+                                    <p>14 апреля 2020, 10:53</p>
+                                </div>
+
+                                <div class="docs__table-cont">
+                                    <p>14 апреля 2020, 10:53</p>
+                                    <p>Акт списания</p>
+                                    <p>000003</p>
+                                    <p>14 апреля 2020, 10:53</p>
+                                </div>
+
+                                <div class="docs__table-cont">
+                                    <p>14 апреля 2020, 10:53</p>
+                                    <p>Акт списания</p>
+                                    <p>000003</p>
+                                    <p>14 апреля 2020, 10:53</p>
+                                </div>
+
+                                <div class="docs__table-cont">
+                                    <p>14 апреля 2020, 10:53</p>
+                                    <p>Акт списания</p>
+                                    <p>000003</p>
+                                    <p>14 апреля 2020, 10:53</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="guide tab__item" id="guide">
+                            <div class="guide__top">
+                                <p class="guide__top-title">Полировка</p>
+                                <div class="guide__top-img">
+                                    <img class="img-set" src="../../images/settings.svg">
+                                    <img class="img-set-accept" src="../../images/accept.svg">
+                                </div>
+                            </div>
+                            <div class="guide__info">
+                                <p>Товары</p>
+                                <img class="img-remove" src="../../images/remove_item.svg">
+                            </div>
+
+                            <div class="guide__info">
+                                <p>Химия</p>
+                                <img class="img-remove" src="../../images/remove_item.svg">
+                            </div>
+
+                            <div class="guide__info">
+                                <p>Шины</p>
+                                <img class="img-remove" src="../../images/remove_item.svg">
+                            </div>
+                            <a href="#add-storage" class="guide__btn popup__link">Добавить склад</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#add__docs" class="popup__link">
+                    <div class="storage-btn">Создать документ</div>
+                </a>
+            </div>
+        </section>
+
+
+        <footer class="footer lock-padding">
+            <div class="container">
+                <div class="apps">
+                    <p class="footer__p">ПРИЛОЖЕНИЯ</p>
+                    <a href="#" class="footer__link">IOS</a>
+                    <a href="#" class="footer__link">Android</a>
+                    <a href="#" class="footer__link">Windows</a>
+                </div>
+
+                <div class="soc_network">
+                    <p class="footer__p">СОЦСЕТИ</p>
+                    <a href="#" class="footer__link">ВКонтакте</a>
+                    <a href="#" class="footer__link">Facebook</a>
+                    <a href="#" class="footer__link">Одноклассники</a>
+                    <a href="#" class="footer__link">Twitter</a>
+                    <a href="#" class="footer__link">Instagram</a>
+                </div>
+
+                <p class="footer__text">&copy 2020 Автомойка “МИР”</p>
+
+                <div class="help">
+                    <p class="help__p">СЛУЖБА ПОДДЕРЖКИ</p>
+                    <a href="#">
+                        <div class="help__btn">Задать вопрос</div>
+                    </a>
+                </div>
+                <a href="#" class="footer__link-btm">Полная версия</a>
+                <a href="#" class="footer__link-btm" style="position: absolute;
+                right: 16px;">Вход для владельца</a>
+            </div>
+        </footer>
+    </div>
+
+    <div id="add__docs" class="popup lock-padding">
+        <div class="container">
+            <div class="popup__content">
+                <h3 class="text__main">Создать документ</h3>
+                <h4 class="subText">Пожалуйста, выберите какой документ хотите создать</h4>
+                <div class="add__docs-links">
+                    <a href="./priceList-receiptInvoice.html" class="add__docs-link">Приходная накладная</a>
+                    <hr>
+                    <a href="./priceList-act_of_debiting.html" class="add__docs-link">Акт списания</a>
+                    <hr>
+                    <a href="./priceList-internal_displacement.html" class="add__docs-link">Внутреннее перемещение</a>
+                </div>
+                <div class="popup__btns">
+                    <a href="#" class="btn-sbm">Сохранить</a>
+                    <a href="#" class="btn-cnl close-popup">Отменить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="add-storage" class="popup lock-padding">
+        <div class="container">
+            <div class="popup__content">
+                <h4 class="text__main">Добавить склад</h4>
+                <input class="text-input" type="text" placeholder="Введите значение...">
+                <div class="popup__btns">
+                    <a href="#" class="btn-sbm">Сохранить</a>
+                    <a href="#" class="btn-cnl close-popup">Отменить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../../js/main.js"></script>
+</body>
+
+</html>

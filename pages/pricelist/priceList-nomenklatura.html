@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header lock-padding">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__body-nav">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <a href="../../index.html" class="header__logo">LOGO</a>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li class="header__list-li">МЕНЮ</li>
+                                <li><a class="header__link" href="../main.html">Главная</a></li>
+                                <li><a class="header__link" href="../control.html">Контроль</a></li>
+                                <li><a class="header__link" href="priceList.html">Прайс-лист</a></li>
+                                <li><a class="header__link" href="../personal.html">Персонал</a></li>
+                                <li><a class="header__link" href="#">Настройки</a></li>
+                                <li><a class="header__link" href="../payments.html">Платежи</a></li>
+                                <li><a class="header__link" href="../reviews.html">Отзывы</a></li>
+                                <li><a class="header__link" href="../clients.html">Клиенты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__body-prof">
+                        <input type="search" class="header__body-search">
+                        <a href="#" class="header__link">Войти</a>
+                    </div>
+                    <div class="header__body-img">
+                        <input type="search" class="header__body-srch">
+                        <img src="../../images/search.svg" class="header__body-img_search">
+                        <a href="#"><img src="../../images/profile.svg" class="header__body-img_profile"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="main lock-padding">
+            <div class="container">
+                <h4 class="text__main">Номенклатура</h4>
+
+                <div class="nomenklatura">
+
+                    <div class="price__links" style="margin-bottom: 20px;">
+                        <a href="priceList.html" class="price__link">Прайс-лист</a>
+                        <a href="#" class="price__link-active">Номенклатура</a>
+                        <a href="priceList-storage.html" class="price__link">Склад</a>
+                        <a href="priceList-analytics.html" class="price__link">Аналитика</a>
+                    </div>
+
+                    <div class="nav-bar" style="margin-bottom: 20px;">
+                        <a href="#services" class="nav-bar__link link__tab">Услуги</a>
+                        <a href="#products" class="nav-bar__link link__tab">Товары</a>
+                        <a href="#production" class="nav-bar__link link__tab">Продукция</a>
+                        <a href="#reserves" class="nav-bar__link link__tab">Запасы</a>
+                    </div>
+
+                    <div class="input">
+                        <input type="text" class="search" placeholder="Поиск номенклатуры...">
+                    </div>
+
+                    <div class="choose-search">
+                        <a href="#add_category" class="choose-search-btn popup__link">Добавить категорию</a>
+                        <a href="#add_nomenklatura" class="choose-search-btn popup__link">Добавить номенклатуру</a>
+                    </div>
+
+                    <div class="services tab__item" id="services">
+                        <div class="explorer">
+                            <div class="explorer-item">
+                                <img src="../../images/folder.svg">
+                                <p>Автомойка</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/folder.svg">
+                                <p>Категория</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/file.svg">
+                                <p>Полировка легковая</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/file.svg">
+                                <p>Полировка кроссовер</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/file.svg">
+                                <p>Полировка джип</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products tab__item" id="products">
+                        <div class="explorer">
+                            <div class="explorer-item">
+                                <img src="../../images/folder.svg">
+                                <p>Каши</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/file.svg">
+                                <p>Сникерс</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="production tab__item" id="production">
+                        <div class="explorer">
+                            Добавьте категорию или позицию номенклатуры, чтобы начать заполнять Ваш справочник
+                        </div>
+                    </div>
+
+                    <div class="reserves tab__item" id="reserves">
+                        <div class="explorer">
+                            <div class="explorer-item">
+                                <img src="../../images/folder.svg">
+                                <p>Автомойка</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/folder.svg">
+                                <p>Категория</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/file.svg">
+                                <p>Полировка легковая</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/file.svg">
+                                <p>Полировка кроссовер</p>
+                            </div>
+                            <hr class="explorer-hr">
+                            <div class="explorer-item">
+                                <img src="../../images/file.svg">
+                                <p>Полировка джип</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer lock-padding">
+            <div class="container">
+                <div class="apps">
+                    <p class="footer__p">ПРИЛОЖЕНИЯ</p>
+                    <a href="#" class="footer__link">IOS</a>
+                    <a href="#" class="footer__link">Android</a>
+                    <a href="#" class="footer__link">Windows</a>
+                </div>
+
+                <div class="soc_network">
+                    <p class="footer__p">СОЦСЕТИ</p>
+                    <a href="#" class="footer__link">ВКонтакте</a>
+                    <a href="#" class="footer__link">Facebook</a>
+                    <a href="#" class="footer__link">Одноклассники</a>
+                    <a href="#" class="footer__link">Twitter</a>
+                    <a href="#" class="footer__link">Instagram</a>
+                </div>
+
+                <p class="footer__text">&copy 2020 Автомойка “МИР”</p>
+
+                <div class="help">
+                    <p class="help__p">СЛУЖБА ПОДДЕРЖКИ</p>
+                    <a href="#">
+                        <div class="help__btn">Задать вопрос</div>
+                    </a>
+                </div>
+                <a href="#" class="footer__link-btm">Полная версия</a>
+                <a href="#" class="footer__link-btm" style="position: absolute;
+                        right: 16px;">Вход для владельца</a>
+            </div>
+        </footer>
+    </div>
+
+    <div id="add_category" class="popup lock-padding">
+        <div class="container">
+            <div class="popup__content">
+                <h4 class="text__main">Добавить категорию</h4>
+                <h6 class="subText">Пожалуйста, введите название новой категории</h6>
+                <input type="text" class="text-input" placeholder="Введите значение...">
+                <div class="popup__btns">
+                    <a href="#" class="btn-sbm close-popup">Продолжить</a>
+                    <a href=" #" class="btn-cnl close-popup">Отменить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="add_nomenklatura" class="popup lock-padding">
+        <div class="container">
+            <div class="popup__content">
+                <h4 class="text__main">Добавить номенклатуру</h4>
+                <h6 class="subText">Пожалуйста, введите название новой категории</h6>
+                <div class="add_nomenklatura_inner">
+                    <div class="add_nomenklatura-cont">
+                        <p class="add_nomenklatura-cont_title">Наименование</p>
+                        <p class="add_nomenklatura-cont_text">Наименование</p>
+                    </div>
+                    <hr>
+                    <div class="spoiler__btn">
+                        <p class="add_nomenklatura-cont_title">Категория</p>
+                        <p class="add_nomenklatura-cont_text top-text">Услуги</p>
+                    </div>
+                    <div class="spoiler">
+                        <div class="spoiler__inner">
+                            <p>Средний чек</p>
+                            <p>499₽</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="spoiler__btn">
+                        <p class="add_nomenklatura-cont_title">Тип</p>
+                        <p class="add_nomenklatura-cont_text top-text">Услуга</p>
+                    </div>
+                    <div class="spoiler">
+                        <div class="spoiler__inner">
+                            <p>Средний чек</p>
+                            <p>499₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__btns">
+                    <a href="#" class="btn-sbm close-popup">Сохранить</a>
+                    <a href="#" class="btn-cnl close-popup">Отменить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../../js/main.js"></script>
+</body>
+
+</html>

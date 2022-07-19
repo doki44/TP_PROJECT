@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header lock-padding">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__body-nav">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <a href="../index.html" class="header__logo">LOGO</a>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li class="header__list-li">МЕНЮ</li>
+                                <li><a class="header__link" href="main.html">Главная</a></li>
+                                <li><a class="header__link" href="control.html">Контроль</a></li>
+                                <li><a class="header__link" href="priceList.html">Прайс-лист</a></li>
+                                <li><a class="header__link" href="personal.html">Персонал</a></li>
+                                <li><a class="header__link" href="#">Настройки</a></li>
+                                <li><a class="header__link" href="payments.html">Платежи</a></li>
+                                <li><a class="header__link" href="reviews.html">Отзывы</a></li>
+                                <li><a class="header__link" href="#">Клиенты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__body-prof">
+                        <input type="search" class="header__body-search">
+                        <a href="#" class="header__link">Войти</a>
+                    </div>
+                    <div class="header__body-img">
+                        <input type="search" class="header__body-srch">
+                        <img src="../images/search.svg" class="header__body-img_search">
+                        <a href="#"><img src="../images/profile.svg" class="header__body-img_profile"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="main lock-padding">
+            <div class="container">
+                <h3 class="text__main">Клиенты</h3>
+                <div class="clients__links">
+                    <a href="#list" class="clients__links-item link__tab">Список клиентов</a>
+                    <a href="#sms" class="clients__links-item link__tab">История SMS-рассылок</a>
+                </div>
+
+                <div id="list" class="client__list tab__item">
+                    <div class="client__list-info">
+                        <div class="client__list-info__inner">
+                            <p class="client__list-info-title">Автомойка "МИР"</p>
+                            <div class="client__list-info-img">
+                                <a href="#clients__filter" class="popup__link">
+                                    <img class="img-filter" src="../images/filter.svg">
+                                </a>
+                                <a href="#clients__add" class="popup__link">
+                                    <img class="img-add" src="../images/add.svg">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="client__list-info_count">Найдено 6119 клиентов</p>
+                    </div>
+
+                    <div id="table1" class="client__list-table tab__item-pages">
+                        <div class="client__list-table-top">
+                            <p>№</p>
+                            <p>Гос. номер</p>
+                            <p>Аккаунт</p>
+                            <p>Имя / Телефон</p>
+                            <p>Комментарий</p>
+                            <p style="padding-top: 4px;">Кол-во визитов</p>
+                            <p>Первый визит</p>
+                            <p style="padding-top: 4px;">Последний визит</p>
+                            <p>Общая сумма</p>
+                            <p>Средний чек</p>
+                        </div>
+                        <div class="client__list-table-cont">
+                            <p>1</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>2</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>3</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>4</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>5</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>6</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>7</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>8</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                    </div>
+
+                    <div id="table2" class="client__list-table tab__item-pages">
+                        <div class="client__list-table-top">
+                            <p>№</p>
+                            <p>Гос. номер</p>
+                            <p>Аккаунт</p>
+                            <p>Имя / Телефон</p>
+                            <p>Комментарий</p>
+                            <p style="padding-top: 4px;">Кол-во визитов</p>
+                            <p>Первый визит</p>
+                            <p style="padding-top: 4px;">Последний визит</p>
+                            <p>Общая сумма</p>
+                            <p>Средний чек</p>
+                        </div>
+                        <div class="client__list-table-cont">
+                            <p>1</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>2</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                        <hr>
+                        <div class="client__list-table-cont">
+                            <p>3</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                    </div>
+
+                    <div id="table3" class="client__list-table tab__item-pages">
+                        <div class="client__list-table-top">
+                            <p>№</p>
+                            <p>Гос. номер</p>
+                            <p>Аккаунт</p>
+                            <p>Имя / Телефон</p>
+                            <p>Комментарий</p>
+                            <p style="padding-top: 4px;">Кол-во визитов</p>
+                            <p>Первый визит</p>
+                            <p style="padding-top: 4px;">Последний визит</p>
+                            <p>Общая сумма</p>
+                            <p>Средний чек</p>
+                        </div>
+                        <div class="client__list-table-cont">
+                            <p>1</p>
+                            <p style="padding-top: 4px;">
+                                <img src="../images/reg-number.svg" alt="">
+                                <span class="client__list-span">Скидка
+                                    <span class="client__list-span client__list-span_sale">0</span>
+                                </span>
+                            </p>
+                            <p>K781MP77</p>
+                            <p style="padding-top: 4px;">Александр 89202634978</p>
+                            <p>спецмост</p>
+                            <p>183</p>
+                            <p>23.04.2017</p>
+                            <p>27.04.2020</p>
+                            <p>43 500,00₽</p>
+                            <p>263,64₽</p>
+                        </div>
+                    </div>
+
+                    <div class="client__list-tabs">
+                        <a href="#table1" class="client__list-link link__tab-pages">1</a>
+                        <a href="#table2" class="client__list-link link__tab-pages">2</a>
+                        <a href="#table3" class="client__list-link link__tab-pages">3</a>
+                    </div>
+                    <a href="#clients__add-sms" class="popup__link">
+                        <div class="client__list-btn">Создать SMS-рассылку</div>
+                    </a>
+                </div>
+
+                <div id="sms" class="clients__sms tab__item">
+                    <div id="sms1" class="clients__sms-table tab__item-spec">
+                        <div class="clients__sms-table-top">
+                            <p>Дата</p>
+                            <p>Сообщение</p>
+                            <p>Кол-во получателей</p>
+                            <p>Стоимость</p>
+                            <p>Получатели</p>
+                        </div>
+                        <div class="clients__sms-table-cont">
+                            <p>26.12.2019</p>
+                            <p>С Новым годом!</p>
+                            <p>1499</p>
+                            <p>4 796,80₽</p>
+                            <div>79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="clients__sms-table-cont">
+                            <p>26.12.2019</p>
+                            <p>С Новым годом!</p>
+                            <p>1499</p>
+                            <p>4 796,80₽</p>
+                            <div>79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="clients__sms-table-cont">
+                            <p>26.12.2019</p>
+                            <p>С Новым годом!</p>
+                            <p>1499</p>
+                            <p>4 796,80₽</p>
+                            <div>79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sms2" class="clients__sms-table tab__item-spec">
+                        <div class="clients__sms-table-top">
+                            <p>Дата</p>
+                            <p>Сообщение</p>
+                            <p>Кол-во получателей</p>
+                            <p>Стоимость</p>
+                            <p>Получатели</p>
+                        </div>
+                        <div class="clients__sms-table-cont">
+                            <p>26.12.2019</p>
+                            <p>С Новым годом!</p>
+                            <p>1499</p>
+                            <p>4 796,80₽</p>
+                            <div>79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="clients__sms-table-cont">
+                            <p>26.12.2019</p>
+                            <p>С Новым годом!</p>
+                            <p>1499</p>
+                            <p>4 796,80₽</p>
+                            <div>79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sms3" class="clients__sms-table tab__item-spec">
+                        <div class="clients__sms-table-top">
+                            <p>Дата</p>
+                            <p>Сообщение</p>
+                            <p>Кол-во получателей</p>
+                            <p>Стоимость</p>
+                            <p>Получатели</p>
+                        </div>
+                        <div class="clients__sms-table-cont">
+                            <p>26.12.2019</p>
+                            <p>С Новым годом!</p>
+                            <p>1499</p>
+                            <p>4 796,80₽</p>
+                            <div>79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                                79379804011, 79795055947,
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clients__sms-tabs">
+                        <a href="#sms1" class="clients__sms-link link__tab-spec">1</a>
+                        <a href="#sms2" class="clients__sms-link link__tab-spec">2</a>
+                        <a href="#sms3" class="clients__sms-link link__tab-spec">3</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer lock-padding">
+            <div class="container">
+                <div class="apps">
+                    <p class="footer__p">ПРИЛОЖЕНИЯ</p>
+                    <a href="#" class="footer__link">IOS</a>
+                    <a href="#" class="footer__link">Android</a>
+                    <a href="#" class="footer__link">Windows</a>
+                </div>
+
+                <div class="soc_network">
+                    <p class="footer__p">СОЦСЕТИ</p>
+                    <a href="#" class="footer__link">ВКонтакте</a>
+                    <a href="#" class="footer__link">Facebook</a>
+                    <a href="#" class="footer__link">Одноклассники</a>
+                    <a href="#" class="footer__link">Twitter</a>
+                    <a href="#" class="footer__link">Instagram</a>
+                </div>
+
+                <p class="footer__text">&copy; 2020 Автомойка “МИР”</p>
+
+                <div class="help">
+                    <p class="help__p">СЛУЖБА ПОДДЕРЖКИ</p>
+                    <a href="#">
+                        <div class="help__btn">Задать вопрос</div>
+                    </a>
+                </div>
+                <a href="#" class="footer__link-btm">Полная версия</a>
+                <a href="#" class="footer__link-btm" style="position: absolute;
+                right: 16px;">Вход для владельца</a>
+            </div>
+        </footer>
+    </div>
+
+    <div id="clients__filter" class="popup lock-padding">
+        <div class="container">
+            <div class="popup__content">
+                <h3 class="text__main">Фильтр</h3>
+                <p class="clients__filter-p">Кол-во визитов:</p>
+                <div class="clients__filter-visit">
+                    <input type="text" class="clients__filter-text" placeholder="Введите значение...">
+                    <p class="clients__filter-p clients__filter-visits">и более</p>
+                </div>
+                <p class="clients__filter-p">Объект</p>
+                <p class="clients__filter-p clients__filter-object">Автомойка “МИР”</p>
+                <p class="clients__filter-p">Поиск:</p>
+                <input type="search" class="clients__filter-text" placeholder="Гос. номер, телефон, имя...">
+                <div class="popup__btns">
+                    <a href="#" class="btn-sbm close-popup">Сохранить</a>
+                    <a href="#" class="btn-cnl close-popup">Отменить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="clients__add" class="popup lock-padding">
+        <div class="container">
+            <div class="popup__content">
+                <h3 class="text__main">Новый клиент</h3>
+                <p class="clients__add-p">Гос. номер</p>
+                <div class="clients__add-reg">
+                    <input type="text" class="clients__add-text" placeholder="Введите значение...">
+                    <p class="clients__add-p clients__add-region">регион</p>
+                </div>
+                <p class="clients__add-p">Аккаунт</p>
+                <p class="clients__add-p clients__add-acc">B119BT197</p>
+
+                <p class="clients__add-p">Имя</p>
+                <input type="text" class="clients__add-text clients__add-data" placeholder="Введите имя...">
+
+                <p class="clients__add-p">Номер телефона</p>
+                <input type="text" class="clients__add-text clients__add-data" placeholder="Введите телефон...">
+
+                <p class="clients__add-p">Комментарий:</p>
+                <input type="text" class="clients__add-text clients__add-data" placeholder="Комментарий:">
+                <div class="popup__btns">
+                    <a href="#" class="btn-sbm close-popup">Сохранить</a>
+                    <a href="#" class="btn-cnl close-popup">Отменить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="clients__add-sms" class="popup lock-padding" style="padding-top: 120px;">
+        <div class="container">
+            <div class="popup__content">
+                <h3 class="text__main">Создание SMS-рассылки</h3>
+
+                <p class="clients__add-sms-p">Кому <span>(1498 чел.)</span></p>
+                <textarea type="text" class="clients__add-sms-tels" placeholder="Введите номер"></textarea>
+
+                <p class="clients__add-sms-p">Сообщение</p>
+                <textarea class="clients__add-sms-msg" placeholder="Введите сообщение..."></textarea>
+
+                <p class="clients__add-sms-p">Кол-во символов&nbsp;<span>(0 SMS)</span></p>
+                <p class="clients__add-sms-p clients__add-sms-data">0</p>
+
+                <p class="clients__add-sms-p">Цена за одну SMS&nbsp;<span>(70 символов)</span></p>
+                <p class="clients__add-sms-p clients__add-sms-data">3,20₽</p>
+
+                <p class="clients__add-sms-p">Итого</p>
+                <p class="clients__add-sms-p clients__add-sms-data">0₽</p>
+
+                <div class="popup__btns">
+                    <a href="#" class="btn-sbm close-popup">Сохранить</a>
+                    <a href="#" class="btn-cnl close-popup">Отменить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__body-nav">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <a href="../index.html" class="header__logo">LOGO</a>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li class="header__list-li">МЕНЮ</li>
+                                <li><a class="header__link" href="#">Главная</a></li>
+                                <li><a class="header__link" href="control.html">Контроль</a></li>
+                                <li><a class="header__link" href="pricelist/priceList.html">Прайс-лист</a></li>
+                                <li><a class="header__link" href="personal.html">Персонал</a></li>
+                                <li><a class="header__link" href="#">Настройки</a></li>
+                                <li><a class="header__link" href="payments.html">Платежи</a></li>
+                                <li><a class="header__link" href="reviews.html">Отзывы</a></li>
+                                <li><a class="header__link" href="clients.html">Клиенты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__body-prof">
+                        <input type="search" class="header__body-search">
+                        <a href="#" class="header__link">Войти</a>
+                    </div>
+                    <div class="header__body-img">
+                        <input type="search" class="header__body-srch">
+                        <img src="../images/search.svg" class="header__body-img_search">
+                        <a href="#"><img src="../images/profile.svg" class="header__body-img_profile"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="container">
+                <div class="graphics">график</div>
+                <h3 class="text__main">Сводка за месяц</h3>
+                <div class="stats">
+                    <div class="stats__point">
+                        <p class="stats__point-title">Клиентов</p>
+                        <p class="stats__point-text">1057</p>
+                    </div>
+                    <div class="stats__point">
+                        <p class="stats__point-title">Новых клиентов</p>
+                        <p class="stats__point-text">0</p>
+                    </div>
+                    <div class="stats__point">
+                        <p class="stats__point-title">Клиенты с контактами</p>
+                        <p class="stats__point-text">329</p>
+                    </div>
+                    <div class="stats__point">
+                        <p class="stats__point-title">Подозрительные события</p>
+                        <p class="stats__point-text stats__point-err">404</p>
+                    </div>
+                    <div class="stats__point">
+                        <p class="stats__point-title">Снижение стоимости</p>
+                        <p class="stats__point-text stats__point-err">16 769, 80₽</p>
+                    </div>
+                    <div class="stats__point">
+                        <p class="stats__point-title">Баллов использовано</p>
+                        <p class="stats__point-text">-</p>
+                    </div>
+                    <div class="stats__point spoiler__text">
+                        <div class="spoiler__btn">
+                            <p class="stats__point-title top">Средний чек</p>
+                            <p class="stats__point-text">499₽</p>
+                        </div>
+                        <div class="spoiler">
+                            <div class="stats__point">
+                                <p class="stats__point-title">Мойка</p>
+                                <p class="stats__point-text">532₽</p>
+                            </div>
+                            <div class="stats__point">
+                                <p class="stats__point-title">Мойка ночь</p>
+                                <p class="stats__point-text">284₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats__point">
+                        <p class="stats__point-title stats__point-res">Выручка</p>
+                        <p class="stats__point-text stats__point-res">532 340, 70₽</p>
+                    </div>
+                </div>
+
+                <div class="stats-btn">Скачать отчет</div>
+
+                <h3 class="text__main">Финансовая сводка за месяц</h3>
+
+                <div class="financy">
+                    <div class="financy-links">
+                        <a href="#cash" class="financy-link link__tab">Наличные</a>
+                        <a href="#card" class="financy-link link__tab">Карта</a>
+                        <a href="#transfer" class="financy-link link__tab">Безнал</a>
+                    </div>
+
+                    <div id="cash" class="financy__points tab__item">
+                        <div class="financy__points spoiler__btn">
+                            <p class="financy__points-title top">Мойка1</p>
+                            <p class="financy__points-text">472 090, 70₽</p>
+                        </div>
+                        <div class="spoiler">
+                            <div class="financy__points spoiler__btn">
+                                <p class="financy__points-title top">Услуги</p>
+                                <p class="financy__points-text">432 140, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Антидождь и запотеватель</p>
+                                <p class="financy__points-text">2 610, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Химчистка</p>
+                                <p class="financy__points-text">13 220, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Прочее</p>
+                                <p class="financy__points-text">9 020, 70₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Полировка и покрытия</p>
+                                <p class="financy__points-text">15 100, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="financy__points spoiler__btn">
+                            <p class="financy__points-title top">Мойка ночь</p>
+                            <p class="financy__points-text">16 140, 00₽</p>
+                        </div>
+                        <div class="spoiler">
+                            <div class="financy__points points__financy">
+                                <p class="financy__points-title">CarPro HydrO2</p>
+                                <p class="financy__points-text">10 300, 00₽</p>
+                            </div>
+                            <div class="financy__points points__financy">
+                                <p class="financy__points-title">Gyeon Q2</p>
+                                <p class="financy__points-text">4 800, 00₽</p>
+                            </div>
+                        </div>
+
+                        <div class="financy__points-res">
+                            <p class="financy__points-title">Сумма</p>
+                            <p class="financy__points-text">488 230, 70₽</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="financy__points tab__item">
+                        <div class="financy__points spoiler__btn">
+                            <p class="financy__points-title top">Мойка2</p>
+                            <p class="financy__points-text">472 090, 70₽</p>
+                        </div>
+                        <div class="spoiler">
+                            <div class="financy__points spoiler__btn">
+                                <p class="financy__points-title top">Услуги</p>
+                                <p class="financy__points-text">432 140, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Антидождь и запотеватель</p>
+                                <p class="financy__points-text">2 610, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Химчистка</p>
+                                <p class="financy__points-text">13 220, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Прочее</p>
+                                <p class="financy__points-text">9 020, 70₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Полировка и покрытия</p>
+                                <p class="financy__points-text">15 100, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="financy__points spoiler__btn">
+                            <p class="financy__points-title top">Мойка ночь</p>
+                            <p class="financy__points-text">16 140, 00₽</p>
+                        </div>
+                        <div class="spoiler">
+                            <div class="financy__points points__financy">
+                                <p class="financy__points-title">CarPro HydrO2</p>
+                                <p class="financy__points-text">10 300, 00₽</p>
+                            </div>
+                            <div class="financy__points points__financy">
+                                <p class="financy__points-title">Gyeon Q2</p>
+                                <p class="financy__points-text">4 800, 00₽</p>
+                            </div>
+                        </div>
+
+                        <div class="financy__points-res">
+                            <p class="financy__points-title">Сумма</p>
+                            <p class="financy__points-text">488 230, 70₽</p>
+                        </div>
+                    </div>
+
+                    <div id="transfer" class="financy__points tab__item">
+                        <div class="financy__points spoiler__btn">
+                            <p class="financy__points-title top">Мойка3</p>
+                            <p class="financy__points-text">472 090, 70₽</p>
+                        </div>
+                        <div class="spoiler">
+                            <div class="financy__points spoiler__btn">
+                                <p class="financy__points-title top">Услуги</p>
+                                <p class="financy__points-text">432 140, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Антидождь и запотеватель</p>
+                                <p class="financy__points-text">2 610, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Химчистка</p>
+                                <p class="financy__points-text">13 220, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Прочее</p>
+                                <p class="financy__points-text">9 020, 70₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+
+                            <div class="financy__points spoiler__btn ">
+                                <p class="financy__points-title top">Полировка и покрытия</p>
+                                <p class="financy__points-text">15 100, 00₽</p>
+                            </div>
+                            <div class="spoiler">
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">CarPro HydrO2</p>
+                                    <p class="financy__points-text">10 300, 00₽</p>
+                                </div>
+                                <div class="financy__points points__financy">
+                                    <p class="financy__points-title">Gyeon Q2</p>
+                                    <p class="financy__points-text">4 800, 00₽</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="financy__points spoiler__btn">
+                            <p class="financy__points-title top">Мойка ночь</p>
+                            <p class="financy__points-text">16 140, 00₽</p>
+                        </div>
+                        <div class="spoiler">
+                            <div class="financy__points points__financy">
+                                <p class="financy__points-title">CarPro HydrO2</p>
+                                <p class="financy__points-text">10 300, 00₽</p>
+                            </div>
+                            <div class="financy__points points__financy">
+                                <p class="financy__points-title">Gyeon Q2</p>
+                                <p class="financy__points-text">4 800, 00₽</p>
+                            </div>
+                        </div>
+
+                        <div class="financy__points-res">
+                            <p class="financy__points-title">Сумма</p>
+                            <p class="financy__points-text">488 230, 70₽</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h3 class="text__main">Сотрудники и зарплаты</h3>
+
+                <div class="workers">
+                    <div class="workers__links">
+                        <a href="#marat" class="workers__link link__tab-spec">Марат</a>
+                        <a href="#demid" class="workers__link link__tab-spec">Демид</a>
+                        <a href="#philipp" class="workers__link link__tab-spec">Филипп</a>
+                    </div>
+                    <div id="marat" class="workers__stat tab__item-spec">
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title">Мойка</p>
+                            <p class="workers__stat-text">11 029, 45₽</p>
+                        </div>
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title">Мойка ночь</p>
+                            <p class="workers__stat-text">607, 50₽</p>
+                        </div>
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title workers__stat-res">Сумма</p>
+                            <p class="workers__stat-text workers__stat-res">11 636, 95₽</p>
+                        </div>
+                    </div>
+
+                    <div id="demid" class="workers__stat tab__item-spec">
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title">Мойка</p>
+                            <p class="workers__stat-text">10 000₽</p>
+                        </div>
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title">Мойка ночь</p>
+                            <p class="workers__stat-text">500₽</p>
+                        </div>
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title workers__stat-res">Сумма</p>
+                            <p class="workers__stat-text workers__stat-res">10 500₽</p>
+                        </div>
+                    </div>
+
+                    <div id="philipp" class="workers__stat tab__item-spec">
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title">Мойка</p>
+                            <p class="workers__stat-text">9 000₽</p>
+                        </div>
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title">Мойка ночь</p>
+                            <p class="workers__stat-text">450₽</p>
+                        </div>
+                        <div class="workers__stat-inner">
+                            <p class="workers__stat-title workers__stat-res">Сумма</p>
+                            <p class="workers__stat-text workers__stat-res">9 450₽</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h3 class="text__main">Клиенты за весь месяц</h3>
+
+                <div class="main__clients">
+                    <input type="text" class="main__clients-filter" placeholder="Все">
+                    <div id="1" class="tab__item-pages">
+                        <ul class="main__clients-list">
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                        </ul>
+                    </div>
+                    <div id="2" class="tab__item-pages">
+                        <ul class="main__clients-list">
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                        </ul>
+                    </div>
+                    <div id="3" class="tab__item-pages">
+                        <ul class="main__clients-list">
+                            <li class="main__clients-li"></li>
+                            <li class="main__clients-li"></li>
+                        </ul>
+                    </div>
+                    <div class="main__clients-tab__links">
+                        <a href="#1" style="border-bottom: none;" class="main__clients-link link__tab-pages">1</a>
+                        <a href="#2" style="border-bottom: none;" class="main__clients-link link__tab-pages">2</a>
+                        <a href="#3" style="border-bottom: none;" class="main__clients-link link__tab-pages">3</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="apps">
+                    <p class="footer__p">ПРИЛОЖЕНИЯ</p>
+                    <a href="#" class="footer__link">IOS</a>
+                    <a href="#" class="footer__link">Android</a>
+                    <a href="#" class="footer__link">Windows</a>
+                </div>
+
+                <div class="soc_network">
+                    <p class="footer__p">СОЦСЕТИ</p>
+                    <a href="#" class="footer__link">ВКонтакте</a>
+                    <a href="#" class="footer__link">Facebook</a>
+                    <a href="#" class="footer__link">Одноклассники</a>
+                    <a href="#" class="footer__link">Twitter</a>
+                    <a href="#" class="footer__link">Instagram</a>
+                </div>
+
+                <p class="footer__text">&copy 2020 Автомойка “МИР”</p>
+
+                <div class="help">
+                    <p class="help__p">СЛУЖБА ПОДДЕРЖКИ</p>
+                    <a href="#">
+                        <div class="help__btn">Задать вопрос</div>
+                    </a>
+                </div>
+                <a href="#" class="footer__link-btm">Полная версия</a>
+                <a href="#" class="footer__link-btm" style="position: absolute;
+                right: 16px;">Вход для владельца</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+@import 'vars';
+@import 'fonts';
+
+.footer{
+    margin-top: auto;
+    background-color: $main;
+    width: 100%;
+    height: 100%;
+    padding: 16px 0;
+    font-family: 'PTSans-Regular';
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    &__title{
+        width: 140px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        border-bottom: 1px solid #B7A7D7;
+        padding-bottom: 5px;
+    }
+    &__link{
+        color: #fff;
+        margin-right: 10px;
+        height: 40px;
+        &-btm{
+            color: #fff;
+        }
+        img{
+            display: none;
+        }
+    }
+    &__text{
+        margin: 10px 0;
+    }
+    .apps, .soc_network{
+    display: inline-block;
+    margin-bottom: 10px;
+    align-items: center;
+    }
+    .soc_network{
+    position: absolute;
+    right: 0;
+    }
+
+    .help{
+    margin-bottom: 14px;
+        &__p{
+            font-weight: 700;
+            margin-bottom: 13px;
+        }
+        &__btn{
+            color: #fff;
+            font-weight: 700;
+            border: 2px solid #B7A7D7;
+            border-radius: 12px;
+            padding-top: 7px;
+            height: 42px;
+            text-align: center;
+            align-items: center;
+        }
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+}

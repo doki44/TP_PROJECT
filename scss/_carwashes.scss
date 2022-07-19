@@ -1,0 +1,20 @@
+@import 'vars';
+@import 'fonts';
+
+.choose-carwash {
+    height: 59px;
+    border-radius: 12px;
+    background-color: #E4E2F4;
+    margin-bottom: 25px;
+    padding-top: 19px;
+    padding-left: 11px;
+    position: relative;
+    font-family: "PTSans-Bold";
+    font-style: normal;
+    color: $main;
+    img{
+        position: absolute;
+        top: 21px;
+        right: 16px;
+    }
+}

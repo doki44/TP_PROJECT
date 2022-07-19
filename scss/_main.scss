@@ -1,0 +1,219 @@
+@import 'vars';
+@import 'fonts';
+
+//!Главная
+
+.graphics{
+    font-family: 'PTSans-Regular';
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.stats{
+    margin: 0 -15px 18px;
+    padding: 0 28px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.25);
+    min-height: 327px; 
+    font-family: 'PTSans-Regular';
+    font-size: 17px;
+    line-height: 20px; 
+    letter-spacing: -0.41px;
+    &__point{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #F4F4F5;
+        &-hidden{
+            padding-left: 20px;
+            display: none;
+            border-bottom: 1px solid #F4F4F5;
+            .stats__point{
+                border-bottom: none;
+            }
+        }
+        &:last-child{
+            border-bottom: none;
+        }
+        &-spoiler{
+            padding: 0;
+        }
+        &-title{
+            color: #9285AE;
+        }
+        &-text{
+            color: $main;
+        }
+        &-err{
+            color: #FC6441;
+        }
+        &-res{
+            font-family: 'PTSans-Bold';
+        }
+    }   
+}
+
+.stats-btn{
+    cursor: pointer;
+    padding-top: 9px;
+    margin-bottom: 20px;
+    font-family: 'PTSans-Bold';
+    font-size: 17px;
+    line-height: 20px; 
+    background-color: $main;
+    color: #fff;
+    height: 42px;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.financy{
+    margin: 0 -15px 18px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.25);
+    min-height: 100px;
+    font-family: 'PTSans-Regular';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    &-links{
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+    }
+    &-link{
+        color: #B7A7D7;
+        width: 120px;
+        text-align: center;
+        padding: 13px 0;
+    }
+}
+
+.financy__points{
+    padding: 0 28px;
+    border-bottom: 1px solid #f4f4f5;
+    &-title{
+        color: #9285AE;
+        padding-left: 20px;
+    }
+    &-text{
+        color: $main;
+    }
+    &-res{
+        padding: 0;
+    }
+    &-res{
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 0;
+        p{
+            padding: 0;
+            font-family: 'PTSans-Bold';
+        }
+    }
+    .points__financy{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+}
+
+.workers{
+    margin: 0 -15px 16px;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.25);
+    background-color: #fff;
+    border-radius: 12px;
+    min-height: 190px;
+    font-family: 'PTSans-Regular';
+    font-size: 17px;
+    line-height: 20px;
+    &__links{
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+    }
+    &__link{
+        color: #B7A7D7;
+        width: 120px;
+        text-align: center;
+        padding-top: 13px;
+    }
+    &__stat{
+        padding: 0 28px;
+        &-inner{
+            padding: 13px 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #f4f4f5;
+            &:last-child{
+                border-bottom: none;
+            }
+        }
+        &-title{
+            color: #9285AE;
+        }
+        &-text{
+            color: $main;
+        }
+        &-res{
+            font-family: 'PTSans-Bold';
+        }
+    }
+}
+
+.main__clients{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.25);
+    margin: 0 -15px 16px;
+    padding: 10px;
+    min-height: 50px;
+    &-filter{
+        height: 28px;
+        width: 100%;
+        border-radius: 14px;
+        border: none;
+        margin-bottom: 16px;
+        padding: 8px;
+        color: $main;
+        outline: none;
+        background-color: #ADA3C2;
+        background-image: url('../images/filter.svg');
+        background-position: right;
+        background-repeat: no-repeat;
+        &::placeholder{
+            color: $main;
+        }
+    }
+    &-link{
+        font-family: 'PTSans-Regular';
+        font-size: 17px;
+        line-height: 20px;
+        color: #9285AE;
+        border-bottom: none;
+    }
+    &-tab__links{
+        text-align: center;
+    }
+    &-list{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(136px, 1fr));
+        grid-gap: 8px;
+        margin-bottom: 15px;
+    }
+    &-li{
+        width: 136px;
+        height: 136px;
+        background-image: url('../images/main-clients.png');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

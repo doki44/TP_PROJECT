@@ -1,0 +1,98 @@
+@import 'vars';
+@import 'fonts';
+
+*{
+    box-sizing: border-box;
+}
+
+.settings{
+    margin: 0 -15px 16px;
+    padding: 0 15px 15px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+    border-radius: 12px;
+    font-family: "PTSans-Regular";
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    &__links{
+        margin: 0 -15px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    &__link{
+        font-size: 13px;
+        line-height: 20px;
+        color: #b7a7d7;
+        margin-right: 7px;
+        max-width: 142px;
+        min-width: 89px;
+        width: 100%;
+        padding-top: 5px;
+        &:first-child{
+            padding-left: 5px;
+        }
+        &:last-child{
+            margin-right: 0;
+            padding-right: 5px;
+        }
+    }
+    &__title{
+        font-family: "OpenSans-Regular";
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #939599;
+        padding: 10px 0;
+    }
+    &__table{
+        margin: 0 -15px 10px;
+        overflow-x: auto;
+        border-radius: 12px;
+        overflow: auto;
+        box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.25);
+        &-head{
+            min-width: 1110px;
+            display: flex;
+            justify-content: space-around;
+            background-color: $main;
+            color: #fff;
+            align-items: center;
+            padding: 10px 0;
+            p{
+                text-align: center;
+            }
+        }
+        &-body{
+            min-width: 1110px;
+            &_row{
+                padding: 10px 0;
+                display: flex;
+                justify-content: space-around;
+                border-bottom: 1px solid #f4f4f5;
+                p{
+                    text-align: center;
+                    input[type="text"]{
+                        border: none;
+                        width: 75px;
+                    }
+                }
+            }
+        }
+    }
+    &__btn{
+        background-color: #FC6441;
+        color: #fff;
+        font-family: 'PTSans-Bold';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 42px;
+        border-radius: 12px;
+    }
+}
